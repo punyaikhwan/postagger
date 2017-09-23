@@ -93,7 +93,7 @@ for comments,tree in trees:
     		if (args.type == 'withPrevPOSWord'):
     			print(wordDictionary.index(prevword), end=",", file=out)
     			prevword = tempPOS
-    	print(posTagList.index(tempPOS), end="\n", file=out)
+    	print(tempPOS, end="\n", file=out)
     	arrayWordFeature = []
 
 print("Done")
